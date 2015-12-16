@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>		
+		<mapping class="com.onebus.beans.User" />
+		<mapping class="com.onebus.beans.Manager" />
+		<mapping class="com.onebus.beans.Driver" />
+		<mapping class="com.onebus.beans.City" />
+		<mapping class="com.onebus.beans.Company" />
+		<mapping class="com.onebus.beans.BusLine" />
+		<mapping class="com.onebus.beans.Bus" />
+		<mapping class="com.onebus.beans.Station" />
+		<mapping class="com.onebus.beans.Order" />
+		<mapping class="com.onebus.beans.Feedback" />
+		<mapping class="com.onebus.beans.Dispatch" />
+		<mapping class="com.onebus.beans.TravelRecord" />
+		<mapping class="com.onebus.beans.GoodsScore" />
+	</session-factory>
+</hibernate-configuration>
